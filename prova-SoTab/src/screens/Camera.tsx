@@ -11,6 +11,8 @@ import { dados, IDados } from "../services/data";
 import { colors } from "../styles/colors";
 
 export function CameraScreen({ navigation }: ImagemTypes) {
+
+
   const renderItem = ({ item }: { item: IDados }) => (
     // O container do item agora é um dos "quadradinhos"
     <View style={styles.itemContainer}>

@@ -14,7 +14,7 @@ export type ImagemTypes = {
 const ImagemStack = createNativeStackNavigator<ImagemParamList>()
 export function ImagemStackNavigation() {
     return (
-        <ImagemStack.Navigator screenOptions={{ headerShown: false }}>
+        <ImagemStack.Navigator screenOptions={{headerStyle: { backgroundColor: '#84b9ffff' },}}>
             <ImagemStack.Screen name="Camera" component={ScreenCamera} />
             <ImagemStack.Screen name="Lista" component={ScreenLista} />
         </ImagemStack.Navigator>
