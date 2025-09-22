@@ -9,6 +9,7 @@ import { ComponentButtonInterface } from "../components";
 import { ImagemTypes } from "../navigations/MainDrawerNavigation";
 import { dados, IDados } from "../services/data";
 import { colors } from "../styles/colors";
+import { ScrollView } from "react-native-gesture-handler";
 
 export function CameraScreen({ navigation }: ImagemTypes) {
   const renderItem = ({ item }: { item: IDados }) => (
@@ -30,6 +31,7 @@ export function CameraScreen({ navigation }: ImagemTypes) {
 
   return (
     <View style={styles.container}>
+    
       <FlatList
         data={dados}
         renderItem={renderItem}

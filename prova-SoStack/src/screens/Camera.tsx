@@ -6,7 +6,7 @@ import {
   Image // 👈 1. Importe o componente Image
 } from "react-native";
 import { ComponentButtonInterface } from "../components";
-import { ImagemTypes } from "../navigations/MainDrawerNavigation";
+import { ImagemTypes } from "../navigations/ImagemStackNavigation";
 import { dados, IDados } from "../services/data";
 import { colors } from "../styles/colors";
 

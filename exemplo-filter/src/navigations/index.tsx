@@ -1,15 +1,13 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { MainDrawerNavigation } from "./MainDrawerNavigation";
-
+import { ImagemStackNavigation } from "./ImagemStackNavigation";
 
 export function Navigation() {
    // const {login} = useAuth()
     return (
         <NavigationContainer>
           {/* {login ? <MainDrawerNavigation /> : <LoginStackNavigation />} */}
-            <MainDrawerNavigation />
             
-            {/*<ImagemStackNavigation />*/}
+            <ImagemStackNavigation />
         </NavigationContainer>
     )
 
